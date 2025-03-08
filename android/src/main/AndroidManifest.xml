@@ -2,8 +2,6 @@
   package="com.leeson.image_pickers">
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-    <queries package="${applicationId}">
-    </queries>
     <application
         android:networkSecurityConfig="@xml/net_sec"
         android:requestLegacyExternalStorage="true">
