@@ -3,8 +3,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <application
-        android:networkSecurityConfig="@xml/net_sec"
-        android:requestLegacyExternalStorage="true">
+        android:networkSecurityConfig="@xml/net_sec">
         <!--适配9.0的系统-->
         <uses-library android:name="org.apache.http.legacy" android:required="false" />
         <!--适配9.0的系统-->
